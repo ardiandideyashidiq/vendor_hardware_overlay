@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        package="me.phh.treble.overlay.infinix.hot11s.systemui"
+        android:versionCode="1"
+        android:versionName="1.0">
+        <overlay android:targetPackage="com.android.systemui"
+                android:requiredSystemPropertyName="ro.product.device"
+                android:requiredSystemPropertyValue="+(Infinix-X6812B|Infinix-X6812)"
+                android:priority="449"
+                android:isStatic="true" />
+</manifest>
